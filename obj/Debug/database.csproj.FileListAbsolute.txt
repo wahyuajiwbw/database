@@ -1,0 +1,12 @@
+C:\Users\DELL\source\repos\database\database\obj\Debug\database.csprojAssemblyReference.cache
+C:\Users\DELL\source\repos\database\database\obj\Debug\database.Properties.Resources.resources
+C:\Users\DELL\source\repos\database\database\obj\Debug\database.SignUp.resources
+C:\Users\DELL\source\repos\database\database\obj\Debug\database.csproj.GenerateResource.cache
+C:\Users\DELL\source\repos\database\database\obj\Debug\database.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\database\database\bin\Debug\database.exe.config
+C:\Users\DELL\source\repos\database\database\bin\Debug\database.exe
+C:\Users\DELL\source\repos\database\database\bin\Debug\database.pdb
+C:\Users\DELL\source\repos\database\database\obj\Debug\database.exe
+C:\Users\DELL\source\repos\database\database\obj\Debug\database.pdb
+C:\Users\DELL\source\repos\database\database\obj\Debug\database.HomePage.resources
+C:\Users\DELL\source\repos\database\database\obj\Debug\database.Signin.resources
