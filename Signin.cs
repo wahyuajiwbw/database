@@ -16,6 +16,22 @@ namespace database
         public static string id, name, email, password, country;
         DBAccess objDBAccess = new DBAccess();
         DataTable dtUsers = new DataTable();
+
+        private void btnsignin_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            
+        }
+
+        private void txtpasslogin_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtpasslogin_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            
+        }
+
         public Signin()
         {
             InitializeComponent();
@@ -23,7 +39,7 @@ namespace database
 
         private void Signin_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void btnsignin_Click(object sender, EventArgs e)
@@ -65,6 +81,7 @@ namespace database
                     MessageBox.Show("Error Occured. Try Again.");
                 }
             }
+          
 
         }
 

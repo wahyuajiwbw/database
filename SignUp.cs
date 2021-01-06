@@ -69,8 +69,8 @@ namespace database
                     MessageBox.Show("Account Created Successful.");
 
                     this.Hide();
-                    HomePage home = new HomePage();
-                    home.Show();
+                    Signin sign = new Signin();
+                    sign.Show();
                  
                 }
                 else

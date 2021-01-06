@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CommandBuilder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommandBuilder.Designer.cs">
+      <DependentUpon>CommandBuilder.cs</DependentUpon>
+    </Compile>
     <Compile Include="DBAccess.cs" />
     <Compile Include="DBAccess1.cs" />
     <Compile Include="Signin.cs">
@@ -68,6 +74,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CommandBuilder.resx">
+      <DependentUpon>CommandBuilder.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="HomePage.resx">
       <DependentUpon>HomePage.cs</DependentUpon>
     </EmbeddedResource>

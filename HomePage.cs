@@ -24,8 +24,8 @@ namespace database
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            SignUp login = new SignUp();
-            login.Show();
+            CommandBuilder grid = new CommandBuilder();
+            grid.Show();
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -87,6 +87,34 @@ namespace database
                 if (row == 1)
                 {
                     MessageBox.Show("Account Informastion Updated Successful.");
+
+                    this.Hide();
+                    Signin sign = new Signin();
+                    sign.Show();
+
+                }
+                else
+                {
+                    MessageBox.Show("Error Occured. Try Again.");
+                }
+            }
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            DialogResult dialog = MessageBox.Show("Are you sure?", "Delete Account", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+
+            if (dialog == DialogResult.Yes)
+            {
+                string query = "Delete From Users where ID = '" + Signin.id + "'";
+
+                SqlCommand deleteCommand = new SqlCommand(query);
+
+                int row = objDbAcces.executeQuery(deleteCommand);
+
+                if (row == 1)
+                {
+                    MessageBox.Show("Account Delete Successful.");
 
                     this.Hide();
                     Signin sign = new Signin();

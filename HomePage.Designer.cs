@@ -46,11 +46,12 @@ namespace database
             // 
             // btnlogout
             // 
-            this.btnlogout.Location = new System.Drawing.Point(994, 531);
+            this.btnlogout.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnlogout.Location = new System.Drawing.Point(755, 239);
             this.btnlogout.Name = "btnlogout";
-            this.btnlogout.Size = new System.Drawing.Size(75, 36);
+            this.btnlogout.Size = new System.Drawing.Size(265, 213);
             this.btnlogout.TabIndex = 0;
-            this.btnlogout.Text = "Logout";
+            this.btnlogout.Text = "Edit Database";
             this.btnlogout.UseVisualStyleBackColor = true;
             this.btnlogout.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -166,12 +167,13 @@ namespace database
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(804, 279);
+            this.button1.Location = new System.Drawing.Point(755, 475);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(265, 135);
+            this.button1.Size = new System.Drawing.Size(265, 42);
             this.button1.TabIndex = 20;
             this.button1.Text = "Delete My Account";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // lblwelcomename
             // 

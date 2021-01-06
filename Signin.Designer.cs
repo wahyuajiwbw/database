@@ -48,6 +48,7 @@ namespace database
             this.btnsignin.Text = "Login";
             this.btnsignin.UseVisualStyleBackColor = true;
             this.btnsignin.Click += new System.EventHandler(this.btnsignin_Click);
+            this.btnsignin.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.btnsignin_KeyPress);
             // 
             // txtpasslogin
             // 
@@ -57,6 +58,8 @@ namespace database
             this.txtpasslogin.PasswordChar = '*';
             this.txtpasslogin.Size = new System.Drawing.Size(411, 38);
             this.txtpasslogin.TabIndex = 14;
+            this.txtpasslogin.TextChanged += new System.EventHandler(this.txtpasslogin_TextChanged);
+            this.txtpasslogin.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtpasslogin_KeyPress);
             // 
             // label4
             // 

@@ -10,3 +10,4 @@ C:\Users\DELL\source\repos\database\database\obj\Debug\database.exe
 C:\Users\DELL\source\repos\database\database\obj\Debug\database.pdb
 C:\Users\DELL\source\repos\database\database\obj\Debug\database.HomePage.resources
 C:\Users\DELL\source\repos\database\database\obj\Debug\database.Signin.resources
+C:\Users\DELL\source\repos\database\database\obj\Debug\database.CommandBuilder.resources
